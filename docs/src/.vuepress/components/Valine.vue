@@ -31,7 +31,7 @@ export default {
 
     new Valine({
       el: '#vcomments',
-      appId: '9lsLVrCvN59gzPOJmUenA5z1-gzGzoHsz',// your appId
+      appId: 'Uj9psehX7W88JO7e3vzCR33T-gzGzoHsz',// your appId
       appKey: 'htJrr6zKkGE7t0TYvkfeavtY', // your appKey
       notify: false,
       verify: false,
