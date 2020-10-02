@@ -1,15 +1,15 @@
 ---
 home: true
 heroImage: "/logo.png"
-tagline: Hacker Zha's Study Blog.
-actionText: Algorithm here →
-actionLink: /guide/
+tagline: 有任何建议，或者想对我说的话
+actionText: 点击留言 👈
+actionLink: /comment/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by Ruijian Zha with ❤️
+- title: 简介至上
+  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
+- title: 算法优化
+  details: 在数学和计算机科学之中，为任何一系列良定义的具体计算步骤，常用于计算、数据处理和自动推理。
+- title: 生活黑客
+  details: 以理性、探索精神和系统思维为基础，对自我和生活持续进行优化，让自己变得更加健康、自信和快乐，让生活变得更加充实和美好的人。
+footer: Made by Ruijian Zha ❤️
 ---

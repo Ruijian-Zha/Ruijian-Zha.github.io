@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Algorihtms && Life Hacker Tips',
+  title: 'Algorithm && Life Haker Tips',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -34,19 +34,23 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Algorithm',
+        link: '/algorithm/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: '留言',
+        link: '/comment/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Github',
+        link: 'https://github.com/Ruijian-Zha'
       }
     ],
     sidebar: {
+      '/algorithm/':[
+        '',
+        'part1'
+      ],
       '/guide/': [
         {
           title: 'Guide',
