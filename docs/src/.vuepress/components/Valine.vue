@@ -32,7 +32,7 @@ export default {
     new Valine({
       el: '#vcomments',
       appId: '9lsLVrCvN59gzPOJmUenA5z1-gzGzoHsz',// your appId
-      appKey: 'pPDxHfU2Gw9YW7pwP7D7j4FU', // your appKey
+      appKey: 'htJrr6zKkGE7t0TYvkfeavtY', // your appKey
       notify: false,
       verify: false,
       path: window.location.pathname,
