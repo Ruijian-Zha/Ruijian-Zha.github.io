@@ -1,3 +1,5 @@
+cd docs
+
 set -e
 
 # build
