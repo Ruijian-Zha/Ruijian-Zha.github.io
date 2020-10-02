@@ -1,0 +1,23 @@
+{
+  "name": "Ruijian_Zha",
+  "version": "0.0.1",
+  "description": "It is my blog.",
+  "main": "index.js",
+  "authors": {
+    "name": "Ruijian Zha",
+    "email": "1323318674@qq.com"
+  },
+  "repository": "Ruijian-Zha.github.io/Ruijian_Zha",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "leancloud-storage": "^4.6.1",
+    "valine": "^1.4.14"
+  }
+}
