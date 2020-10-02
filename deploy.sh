@@ -2,6 +2,8 @@ cd docs
 
 set -e
 
+# yarn add -D vuepress 
+
 # build
 npm run build
 
