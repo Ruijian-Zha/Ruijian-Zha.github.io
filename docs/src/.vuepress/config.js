@@ -38,6 +38,10 @@ module.exports = {
         link: '/algorithm/',
       },
       {
+        text: '学习路径',
+        link: '/learning_path/',
+      },
+      {
         text: '留言',
         link: '/comment/'
       },
