@@ -38,7 +38,7 @@ module.exports = {
         link: '/algorithm/',
       },
       {
-        text: '学习路径',
+        text: '学习路线',
         link: '/learning_path/',
       },
       {
