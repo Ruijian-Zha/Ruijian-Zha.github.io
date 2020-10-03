@@ -53,12 +53,20 @@ module.exports = {
     sidebar: {
         '/algorithm/':[
           {
+            title: '算法目录',   // 必要的
+            path: '/algorithm/', 
+            collapsable: true, // 可选的, 默认值是 true,
+            sidebarDepth: 1,    // 可选的, 默认值是 1
+            children: [
+              ''
+            ]
+          },
+          {
             title: '基础算法',   // 必要的
             path: '/algorithm/', 
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 1,    // 可选的, 默认值是 1
             children: [
-              '',
               'basic_algorithm/排序',
               'basic_algorithm/前缀和',
               'basic_algorithm/双指针',
