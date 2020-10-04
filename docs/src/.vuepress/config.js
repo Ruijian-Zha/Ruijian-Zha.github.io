@@ -68,6 +68,7 @@ module.exports = {
             sidebarDepth: 1,    // 可选的, 默认值是 1
             children: [
               'basic_algorithm/排序',
+              'basic_algorithm/二分',
               'basic_algorithm/前缀和',
               'basic_algorithm/双指针',
               'basic_algorithm/位运算',
