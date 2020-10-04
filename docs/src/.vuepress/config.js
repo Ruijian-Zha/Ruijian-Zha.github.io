@@ -70,6 +70,7 @@ module.exports = {
               'basic_algorithm/排序',
               'basic_algorithm/二分',
               'basic_algorithm/前缀和',
+              'basic_algorithm/差分数组',
               'basic_algorithm/双指针',
               'basic_algorithm/位运算',
               'basic_algorithm/离散化'
