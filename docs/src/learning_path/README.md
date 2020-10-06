@@ -5,7 +5,9 @@
 我目前的学习路径：（Update 2020/10/3）
 ![learning_path](/learning_path.png)
 
-当前进度：（Update 2020/10/3）
+当前进度：（Update 2020/10/6）
 
-AcWing 基础课 所有的模板题能默写 （5-10min）
+AcWing 基础课 所有的模板题能默写 <br>
+[√] chap 1 <br>
+[ ] chap 2
 
