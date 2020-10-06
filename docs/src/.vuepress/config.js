@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Algorithm && Life Haker Tips',
+  title: 'Algorithm && Life Hacker Tips',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
