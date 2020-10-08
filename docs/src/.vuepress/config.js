@@ -85,6 +85,7 @@ module.exports = {
               'data_structure/链表',
               'data_structure/单调栈',
               'data_structure/滑动窗口',
+              'data_structure/KMP',
               'data_structure/字典树'
             ]
           },
