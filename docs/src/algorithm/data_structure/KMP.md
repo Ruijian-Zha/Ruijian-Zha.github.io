@@ -83,7 +83,7 @@ Define: 这个字符前面的字符串，前缀又是后缀的长度是多少
 
 ## Leetcode 
 
-[Leetcode 28. Implement strStr()](https://www.yuque.com/docs/share/bc327c57-4723-49a8-9815-99941b0a2602?# 《Leetcode 28 (easy)》)
+[Leetcode 28. Implement strStr()](https://www.yuque.com/docs/share/bc327c57-4723-49a8-9815-99941b0a2602?#)
 
 > C++ 公式的直接使用
 
