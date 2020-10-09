@@ -38,6 +38,10 @@ module.exports = {
         link: '/algorithm/',
       },
       {
+        text: '文章',
+        link: 'https://www.yuque.com/nageaihuanxiangdeshaonian/gu0ogy',
+      },
+      {
         text: '学习路线',
         link: '/learning_path/',
       },
