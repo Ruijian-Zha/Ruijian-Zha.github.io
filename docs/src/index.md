@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: "/logo.png"
-tagline: 有任何建议，或者想对我说的话
+tagline: 享受苟且红利  做时间的朋友
 actionText: 点击留言 👈
 actionLink: /comment/
 features:
