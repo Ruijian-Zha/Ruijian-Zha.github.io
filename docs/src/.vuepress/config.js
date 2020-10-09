@@ -50,6 +50,7 @@ module.exports = {
         text: '留言',
         link: '/comment/'
       },
+      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
       {
         text: 'Github',
         link: 'https://github.com/Ruijian-Zha'
@@ -91,7 +92,8 @@ module.exports = {
               'data_structure/单调栈',
               'data_structure/滑动窗口',
               'data_structure/KMP',
-              'data_structure/字典树'
+              'data_structure/字典树',
+              'data_structure/并查集'
             ]
           },
           {
