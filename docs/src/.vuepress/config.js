@@ -1,7 +1,6 @@
 const { description } = require('../../package')
 
 module.exports = {
-  theme: 'reco',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
