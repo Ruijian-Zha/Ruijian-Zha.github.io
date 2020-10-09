@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "leancloud-storage": "^4.6.1",
-    "valine": "^1.4.14"
+    "valine": "^1.4.14",
+    "vuepress-theme-reco": "^1.5.7"
   }
 }
