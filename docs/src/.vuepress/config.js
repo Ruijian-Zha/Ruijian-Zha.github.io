@@ -28,6 +28,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    subSidebar: 'auto',
     authorAvatar: '/tou_xiang.png',
     type: 'blog',
     author: 'Ruijian_Zha',
