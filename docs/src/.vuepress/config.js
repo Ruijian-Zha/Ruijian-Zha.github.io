@@ -28,7 +28,9 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    authorAvatar: '/tou_xiang.png',
     type: 'blog',
+    author: 'Ruijian_Zha',
     repo: '',
     editLinks: false,
     docsDir: '',
@@ -38,20 +40,29 @@ module.exports = {
       {
         text: 'Algorithm',
         link: '/algorithm/',
+        icon: 'reco-tag'
       },
       {
-        text: '文章',
-        link: 'https://www.yuque.com/nageaihuanxiangdeshaonian/gu0ogy',
+        text: '读书笔记',
+        link: '/categories/得到/',
+        icon: 'reco-category'
       },
       {
         text: '学习路线',
         link: '/learning_path/',
-      },
-      {
-        text: '留言',
-        link: '/comment/'
+        icon: 'reco-api'
       },
       { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
+      {
+        text: '留言',
+        link: '/comment/',
+        icon: 'reco-suggestion'
+      },
+      {
+        text: '小专题',
+        link: 'https://www.yuque.com/nageaihuanxiangdeshaonian/gu0ogy',
+        icon: 'reco-document'
+      },
       {
         text: 'Github',
         link: 'https://github.com/Ruijian-Zha'
