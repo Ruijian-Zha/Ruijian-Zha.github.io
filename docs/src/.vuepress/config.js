@@ -106,7 +106,8 @@ module.exports = {
               'data_structure/滑动窗口',
               'data_structure/KMP',
               'data_structure/字典树',
-              'data_structure/并查集'
+              'data_structure/并查集',
+              'data_structure/堆'
             ]
           },
           {
