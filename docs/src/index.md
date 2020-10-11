@@ -1,8 +1,14 @@
 ---
 home: true
-heroImage: "/logo.png"
-tagline: 享受苟且红利  做时间的朋友
+heroText: null
+title: null
+subtitle: null
+tagline: null
 
+bgImage: '/bg11.png'
+bgImageStyle: {
+  height: '200px'
+}
 
 footer: Made by Ruijian Zha ❤️
 ---
