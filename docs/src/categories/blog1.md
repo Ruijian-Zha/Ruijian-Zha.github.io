@@ -7,7 +7,6 @@ categories:
 tags:
 - 知识词条
 public: false
-sticky: true
 ---
 ![gqhl](/gqhl.png)
 > 2019年 时间的朋友 跨年演讲
