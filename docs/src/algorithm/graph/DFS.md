@@ -94,7 +94,7 @@ function Hanoi(n){
 
 所有递归问题都可以转化为递推求解
 
-> 比如题目[LeetCode 62. Unique Paths (medium)](./problems/1-100/62.unique-paths.md)可以使用递归求路径总数，也可以用动态规划，根据状态转换方程，递推求解
+> 比如题目LeetCode 62. Unique Paths (medium)可以使用递归求路径总数，也可以用动态规划，根据状态转换方程，递推求解
 
 我的习惯是如果方便使用递推求解，可以直接递推，如果递归更容易理解，也可以递归
 
@@ -104,7 +104,7 @@ function Hanoi(n){
 
 **八皇后问题**是讲解**回溯**的经典案例
 
-- [LeetCode 51. N-Queens (hard)](./problems/1-100/51.n-queens.md)
+- LeetCode 51. N-Queens (hard)
 
 ## 七天学会DFS
 
@@ -122,13 +122,13 @@ function Hanoi(n){
 
 题目特征: 请枚举所有排列
 
-- [LeetCode 46. Permutations (medium)](./problems/1-100/46.permutations.md)
+- LeetCode 46. Permutations (medium)
 
-- [LeetCode 47. Permutations II (medium)](./problems/1-100/47.permutations-ii.md)
+- LeetCode 47. Permutations II (medium)
 
 拓展：
 
-- [LeetCode 996. Number of Squareful Arrays (hard)](./problems/901-1000/996.number-of-squareful-arrays.md)
+- LeetCode 996. Number of Squareful Arrays (hard
 
 #### 第二天（组合问题）
 
@@ -136,27 +136,27 @@ function Hanoi(n){
 
 题目特征: 请枚举所有组合
 
-- [LeetCode 77. Combinations (medium)](./problems/1-100/77.combinations.md)
+- LeetCode 77. Combinations (medium)
 
-- [LeetCode 39. Combination Sum (medium)](./problems/1-100/39.combination-sum.md)
+- LeetCode 39. Combination Sum (medium)
 
-- [LeetCode 40. Combination Sum II (medium)](./problems/1-100/40.combination-sum-ii.md)
+- LeetCode 40. Combination Sum II (medium)
 
-- [LeetCode 216. Combination Sum III (medium)](./problems/201-300/216.combination-sum-iii.md)
+- LeetCode 216. Combination Sum III (medium)
 
 拓展：
 
-- [LeetCode 93. Restore IP Addresses (medium)](./problems/1-100/93.restore-ip-addresses.md)
+- LeetCode 93. Restore IP Addresses (medium)
 
-- [LeetCode 131. Palindrome Partitioning (medium)](./problems/101-200/131.palindrome-partitioning.md)
+- LeetCode 131. Palindrome Partitioning (medium)
 
 #### 第三天（子集问题）
 
 题目特征: 请枚举所有子集
 
-- [LeetCode 78. Subsets (medium)](./problems/1-100/78.subsets.md)
+- LeetCode 78. Subsets (medium)
 
-- [LeetCode 90. Subsets II (medium)](./problems/1-100/90.subsets-ii.md)
+- LeetCode 90. Subsets II (medium)
 
 ### 棋盘搜索
 
@@ -166,53 +166,53 @@ function Hanoi(n){
 
 #### 第四天（让我们来玩小游戏吧）
 
-- [LeetCode 51. N-Queens (hard)](./problems/1-100/51.n-queens.md)
+- LeetCode 51. N-Queens (hard)
 
-- [LeetCode 52. N-Queens II (hard)](./problems/1-100/52.n-queens-ii.md)
+- LeetCode 52. N-Queens II (hard)
 
-- [LeetCode 37. Sudoku Solver (hard)](./problems/1-100/37.sudoku-solver.md)
+- LeetCode 37. Sudoku Solver (hard)
 
-- [LeetCode 679. 24 Game (hard)](./problems/601-700/679.24-game.md)
+- LeetCode 679. 24 Game (hard)
 
-- [LeetCode 529. Minesweeper (medium)](./problems/501-600/529.minesweeper.md)
+- LeetCode 529. Minesweeper (medium)
 
 #### 第五天（解决点实际问题吧）
 
-- [LeetCode 17. Letter Combinations of a Phone Number (medium)](./problems/1-100/17.letter-combinations-of-a-phone-number.md)
+- [LeetCode 17. Letter Combinations of a Phone Number (medium)
 
-- [LeetCode 351. Android Unlock Patterns (medium)](./problems/301-400/351.android-unlock-patterns.md)
+- [LeetCode 351. Android Unlock Patterns (medium)
 
-- [LeetCode 473. Matchsticks to Square (medium)](./problems/401-500/473.matchsticks-to-square.md)
+- [LeetCode 473. Matchsticks to Square (medium)
 
 #### 第六天（迷宫问题）
 
-- [LeetCode 79. Word Search (medium)](./problems/1-100/79.word-search.md)
+- [LeetCode 79. Word Search (medium)
 
-- [LeetCode 329. Longest Increasing Path in a Matrix (hard)](./problems/301-400/329.longest-increasing-path-in-a-matrix.md)
+- [LeetCode 329. Longest Increasing Path in a Matrix (hard)
 
-- [LeetCode 490. The Maze (medium)](./problems/401-500/490.the-maze.md)
+- [LeetCode 490. The Maze (medium)
 
-- [LeetCode 505. The Maze II (medium)](./problems/501-600/505.the-maze-ii.md)
+- [LeetCode 505. The Maze II (medium)
 
 #### 第七天（表达式中的DFS）
 
-- [LeetCode 22. Generate Parentheses (medium)](./problems/1-100/22.generate-parentheses.md)
+- LeetCode 22. Generate Parentheses (medium)
 
-- [LeetCode 282. Expression Add Operators (hard)](./problems/201-300/282.expression-add-operators.md)
+- LeetCode 282. Expression Add Operators (hard)
 
-- [LeetCode 131. Palindrome Partitioning (medium)](./problems/101-200/131.palindrome-partitioning.md)
+- LeetCode 131. Palindrome Partitioning (medium)
 
-- [LeetCode 301. Remove Invalid Parentheses (hard)](./problems/301-400/301.remove-invalid-parentheses.md)
+- LeetCode 301. Remove Invalid Parentheses (hard)
 
-- [LeetCode 306. Additive Number (medium)](./problems/301-400/306.additive-number.md)
+- LeetCode 306. Additive Number (medium)
 
 #### 第八天（树形DFS)
 
-- [LeetCode 440. K-th Smallest in Lexicographical Order (hard)](./problems/401-500/440.k-th-smallest-in-lexicographical-order.md)
+- LeetCode 440. K-th Smallest in Lexicographical Order (hard)
 
 ### 其他问题
 
-- [LeetCode 526. Beautiful Arrangement (medium)](./problems/501-600/526.beautiful-arrangement.md)
+- LeetCode 526. Beautiful Arrangement (medium)
 
 
 

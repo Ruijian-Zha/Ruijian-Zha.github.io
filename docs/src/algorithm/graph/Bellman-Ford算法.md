@@ -14,14 +14,14 @@ n个点，m条边
 - 循环次数的含义：循环K次后，表示不超过K条边的最短距离
 - 有边数限制的最短路，只能用Bellman-Ford算法，不能用spfa算法
 - 如果有负权回路，最短路不一定存在
-  -![负权回路](https://muyids.oss-cn-beijing.aliyuncs.com/graph-circle-un.png)
+  -负权回路
 - Bellman-Ford算法可以求出是否有**负环**
   - 第n循环后，还有更新，说明路径上有n+1个点，也就是存在环，还有更新，说明环是负环
 - 循环n次后, 所有的边`u->v,权w`满足三角不等式:`dist[v]<=dist[u]+w`
 
 ## 代码实现
 
-- [LeetCode 787. Cheapest Flights Within K Stops (medium)](./problems/701-800/787.cheapest-flights-within-k-stops.md)
+- LeetCode 787. Cheapest Flights Within K Stops (medium)
 
 Bellman-Ford算法
 

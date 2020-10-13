@@ -48,4 +48,4 @@ int dijkstra()
 
 - AcWing849. Dijkstra求最短路 I
 
-- [LeetCode 743. Network Delay Time (medium)](./problems/701-800/743.network-delay-time.md)
+- LeetCode 743. Network Delay Time (medium)
