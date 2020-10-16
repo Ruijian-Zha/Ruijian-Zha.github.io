@@ -107,7 +107,8 @@ module.exports = {
               'data_structure/KMP',
               'data_structure/字典树',
               'data_structure/并查集',
-              'data_structure/堆'
+              'data_structure/堆',
+              'data_structure/哈希表'
             ]
           },
           {
