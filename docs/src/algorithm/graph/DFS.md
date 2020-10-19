@@ -1,15 +1,4 @@
 # DFS
-DFS & 递归 & 回溯 & 剪枝
-
-这四种算法经常结合起来使用，用来解决几类问题
-
-- 排列组合问题
-- 棋盘搜索的问题
-  > 往往是在一个棋盘上查找最短路径、路径方案数
-- 树形问题
-  > 树形结构中的深度优先搜索
-         
-## 代码模板
 
 ### 递归
 
@@ -35,9 +24,7 @@ func dfs(){
 }
 ```
 
-### dfs&递归&回溯&剪枝
-
-dfs & 递归 & 回溯 & 剪枝 结合使用，代码模板
+### dfs 递归 回溯 剪枝
 
 ```
 function dfs(){ // 深搜
@@ -80,17 +67,7 @@ function dfs(){ // 深搜
 2. 把最下面的盘子，从`A->C`;
 3. 把B上的n-1，从`B->A`;
 
-递归求解
-
-```javascript
-function Hanoi(n){
-    if (n == 1) return 1
-    if (n == 2) return 3
-    return 2*Hanoi(n-1) + 1 // 可以通过递推公式得到
-}
-```
-
-- [面试题 08.06. 汉诺塔问题](https://github.com/muyids/leetcode/blob/master/lcci/hanota-lcci.md)
+- [面试题 08.06. 汉诺塔问题](https://demo.codimd.org/s/r10l9dOPv)
 
 所有递归问题都可以转化为递推求解
 
@@ -104,7 +81,7 @@ function Hanoi(n){
 
 **八皇后问题**是讲解**回溯**的经典案例
 
-- LeetCode 51. N-Queens (hard)
+- [LeetCode 51. N-Queens (hard)](https://demo.codimd.org/s/ByDu_VKPP)
 
 ## 七天学会DFS
 

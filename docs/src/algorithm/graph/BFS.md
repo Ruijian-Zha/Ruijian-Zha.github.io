@@ -14,9 +14,10 @@
 
 ## 题目
 
-- LeetCode 317. Shortest Distance from All Buildings (hard)
+- LeetCode 317. Shortest Distance from All Buildings (hard) 
+> 需要 leetcode 会员
 
 
-- LeetCode 1377. Frog Position After T Seconds (hard)
+- [LeetCode 1377. Frog Position After T Seconds (hard)](https://demo.codimd.org/s/r1WB3CPvv)
 
 

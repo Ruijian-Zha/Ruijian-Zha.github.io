@@ -119,6 +119,7 @@ module.exports = {
             children: [
               'graph/DFS',
               'graph/BFS',
+              'graph/最短路目录',
               'graph/朴素的Dijkstra算法',
               'graph/堆优化版的Dijkstra算法',
               'graph/Bellman-Ford算法',

@@ -1,7 +1,11 @@
 # 朴素的Dijkstra算法
 
-集合S：当前已经确定最短距离的点
+## 样题
+给定一个n个点m条边的有向图，图中可能存在重边和自环，所有边权均为正值。
+请你求出1号点到n号点的最短距离，如果无法从1号点走到n号点，则输出-1。
 
+## 思路
+集合S：当前已经确定最短距离的点
 - dist[1] = 0, dist[i] = 正无穷
 - for v: 1 ~ n
   - t <- 不在s中的距离最近的点
@@ -26,9 +30,10 @@ int dijkstra()
     for (int i = 0; i < n-1; i ++) //有n个点所以要进行n-1次迭代;第一个到自身距离为0
     {
         int t = -1;     // 在还未确定最短路的点中，寻找到1号点距离最小的点
-        for (int j = 1; j <= n; j ++)
-            if (!st[j] && (t == -1 || dist[t] > dist[j]))
+        for (int j = 1; j <= n; j ++){
+            if (!st[j] && (t == -1 || dist[j] < dist[t]))
                 t = j;
+        }
 
         st[t] = true; // t号点的最短路已经确定
 
@@ -46,6 +51,4 @@ int dijkstra()
 
 ## 题目
 
-- AcWing849. Dijkstra求最短路 I
-
-- LeetCode 743. Network Delay Time (medium)
+- [LeetCode 743. Network Delay Time (medium)](https://demo.codimd.org/s/r1wc025PP)
