@@ -1,8 +1,7 @@
 # 朴素的Dijkstra算法
 
 ## 样题
-给定一个n个点m条边的有向图，图中可能存在重边和自环，所有边权均为正值。
-请你求出1号点到n号点的最短距离，如果无法从1号点走到n号点，则输出-1。
+我们从某个节点 K 发出一个信号。需要多久才能使所有节点都收到信号？如果不能使所有节点收到信号，返回 -1。
 
 ## 思路
 集合S：当前已经确定最短距离的点
@@ -17,33 +16,40 @@
 ## 算法模板
 
 ```cpp
-int g[N][N];  // 存储每条边；为稠密阵所以用邻接矩阵存储
-int dist[N];  // 存储1号点到每个点的最短距离
-bool st[N];   // 存储每个点的最短路是否已经确定
-
-// 求1号点到n号点的最短路，如果不存在则返回-1
-int dijkstra()
-{
-    memset(dist, 0x3f, sizeof dist); //初始化距离  0x3f代表无限大
-    dist[1] = 0; //第一个点到自身的距离为0
-
-    for (int i = 0; i < n-1; i ++) //有n个点所以要进行n-1次迭代;第一个到自身距离为0
-    {
-        int t = -1;     // 在还未确定最短路的点中，寻找到1号点距离最小的点
-        for (int j = 1; j <= n; j ++){
-            if (!st[j] && (t == -1 || dist[j] < dist[t]))
+int networkDelayTime(vector<vector<int>>& times,int N, int K){
+    int g[N+1][N+1];
+    memset(g, 0x3f, sizeof g);
+    int dist[N+1];
+    memset(dist, 0x3f, sizeof dist);
+    dist[K]=0;
+    
+    for(auto t:times){
+        g[t[0]][t[1]] = t[2];
+    }
+    bool st[N+1];
+    memset(st, false, sizeof st);
+    
+    for(int i=0; i<N-1; i++){
+        int t = -1;
+        
+        for(int j=1; j<=N; j++){
+            if(!st[j] && (t==-1 || dist[j]<dist[t]))
                 t = j;
         }
-
-        st[t] = true; // t号点的最短路已经确定
-
-        // 用t更新其他点的距离
-        for (int j = 1; j <= n; j ++ )
-            dist[j] = min(dist[j], dist[t] + g[t][j]);
+        
+        st[t] = true;
+        
+        for(int j=1; j<=N; j++){
+            dist[j] = min(dist[j], dist[t]+g[t][j]);
+        }
     }
-
-    if (dist[n] == 0x3f3f3f3f) return -1;
-    return dist[n];
+    
+    int res = 0;
+    for(int i=1; i<=N; i++){
+        res = max(res, dist[i]);
+    }
+    if(res == 0x3f3f3f3f/2) return -1;
+    return res;
 }
 ```
 

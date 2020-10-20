@@ -1,13 +1,4 @@
----
-title: 【锦囊：程序员 vs “35岁困境”】
-date: 2020-10-13
-sidebar: 'auto'
-categories:
-- 程序员
-tags:
-- 锦囊
-public: false
----
+
 
 > 内容来源： 得到锦囊
 

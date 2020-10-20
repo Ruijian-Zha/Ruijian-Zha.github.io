@@ -1,8 +1,7 @@
 # 堆优化版的Dijkstra算法
 
 ## 样题
-给定一个n个点m条边的有向图，图中可能存在重边和自环，所有边权均为正值。
-请你求出1号点到n号点的最短距离，如果无法从1号点走到n号点，则输出-1。
+我们从某个节点 K 发出一个信号。需要多久才能使所有节点都收到信号？如果不能使所有节点收到信号，返回 -1。
 
 ## 思路
 集合S：当前已经确定最短距离的点
@@ -41,12 +40,13 @@ public:
         while(heap.size()){
             auto t = heap.top();
             heap.pop();
-            int ver = t.second, distance = t.first;
-            if (st[ver]) continue; // 之前更新过，是冗余备份
-            st[ver] = true;
-            for (auto &p: graph[ver]){
+            int nxt = t.second, distance = t.first;
+            if (st[nxt]) continue; // 之前更新过，是冗余备份
+            st[nxt] = true;
+            for (auto &p: graph[nxt]){
                 if (dist[p.second] > distance + p.first){ // 用t去更新其他点到起始点的最短距离
                     dist[p.second] = distance + p.first;
+                    // 因为我们改变不了 heap 里面的数值，我们只能放一个更有效率的进去，让另外一个变成冗余
                     heap.push({dist[p.second], p.second});
                 }
             }
