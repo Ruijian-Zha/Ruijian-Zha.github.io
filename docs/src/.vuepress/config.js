@@ -124,7 +124,8 @@ module.exports = {
               'graph/堆优化版的Dijkstra算法',
               'graph/Bellman-Ford算法',
               'graph/spfa算法',
-              'graph/Floyd算法',
+              'graph/Floyd-Warshall算法',
+              'graph/最小生成树',
               'graph/Prim算法',
               'graph/Kruskal算法',
               'graph/二分图'

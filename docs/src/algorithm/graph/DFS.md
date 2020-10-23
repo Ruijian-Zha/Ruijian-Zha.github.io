@@ -83,6 +83,9 @@ function dfs(){ // 深搜
 
 - [LeetCode 51. N-Queens (hard)](https://demo.codimd.org/s/ByDu_VKPP)
 
+## 附加例题
+- [Leetcode 785. 判断二分图(medium)](https://demo.codimd.org/s/SyKBxMeuD)
+
 ## 七天学会DFS
 
 ### 排列、组合、子集问题
@@ -155,21 +158,21 @@ function dfs(){ // 深搜
 
 #### 第五天（解决点实际问题吧）
 
-- [LeetCode 17. Letter Combinations of a Phone Number (medium)
+- LeetCode 17. Letter Combinations of a Phone Number (medium)
 
-- [LeetCode 351. Android Unlock Patterns (medium)
+- LeetCode 351. Android Unlock Patterns (medium)
 
-- [LeetCode 473. Matchsticks to Square (medium)
+- LeetCode 473. Matchsticks to Square (medium)
 
 #### 第六天（迷宫问题）
 
-- [LeetCode 79. Word Search (medium)
+- LeetCode 79. Word Search (medium)
 
-- [LeetCode 329. Longest Increasing Path in a Matrix (hard)
+- LeetCode 329. Longest Increasing Path in a Matrix (hard)
 
-- [LeetCode 490. The Maze (medium)
+- LeetCode 490. The Maze (medium)
 
-- [LeetCode 505. The Maze II (medium)
+- LeetCode 505. The Maze II (medium)
 
 #### 第七天（表达式中的DFS）
 

@@ -1,12 +1,10 @@
 # spfa算法
 
-在各个方面都好于Bellman-Ford算法
+SPFA算法是对Bellman-Ford算法的优化
 
 但是不能求**有边数限制的最短路**
 
-SPFA算法是单源最短算法中限制最小的算法，只要没有负环，就可以用SPFA算法，一般的只要求最短路就不含有负环
-
-SPFA算法是对Bellman-Ford算法的优化
+SPFA算法是单源最短算法中限制最小的算法，只要**没有负环**，就可以用SPFA算法，一般的只要求最短路就不含有负环
 
 ## 算法思路
 
@@ -22,7 +20,7 @@ n个点，m条边
 
 - queue <– 起始点
 - while queue 不为空
-  - t <– 队头
+  - t <– queue.front()
     - queue.pop()
   - 用 t 更新所有出边 t –> v，权值为w
     - queue <– v (若该点被更新过，则拿该点更新其他点)
@@ -37,7 +35,7 @@ n个点，m条边
 
 ## 代码实现
 
-- [LeetCode 743. Network Delay Time (medium)](./problems/701-800/743.network-delay-time.md)
+- [LeetCode 743. Network Delay Time (medium)](https://demo.codimd.org/s/r1wc025PP)
 
 spfa算法
 
@@ -47,7 +45,7 @@ public:
     int networkDelayTime(vector<vector<int>>& times, int N, int K) {
         const int INF = 0x3f3f3f3f;
         vector<int> dist(N+1, INF); // 保存到起点的距离
-        vector<bool> st(N+1, false); // 是否最短
+        vector<bool> st(N+1, false); // 是否被优化了 --> 可以用来更新其他点
         typedef pair<int, int> PII;
         unordered_map<int, vector<PII>> edges; // 邻接表
 

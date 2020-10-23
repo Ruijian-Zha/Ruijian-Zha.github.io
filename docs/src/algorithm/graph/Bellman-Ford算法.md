@@ -23,7 +23,7 @@ n个点，m条边
 
 ## 代码实现
 
-- LeetCode 787. Cheapest Flights Within K Stops (medium)
+- [LeetCode 787. Cheapest Flights Within K Stops (medium)](https://demo.codimd.org/s/Hy20JB3wP)
 
 Bellman-Ford算法
 
@@ -31,19 +31,18 @@ Bellman-Ford算法
 class Solution {
 public:
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int K) {
-        const int INF = 0x3f3f3f3f;
-        vector<int> dist(n, INF); // 到起点的最短距离
-        vector<int> backup(n); // 防止串联
-
-        dist[src] = 0;
-        for (int i = 0; i<= K; i++){ // 松弛K次
-            backup.assign(dist.begin(), dist.end());
-            for (auto &f: flights){ // 枚举所有边
-                dist[f[1]] = min(dist[f[1]], backup[f[0]] + f[2]); // 更新最短路
+        const int INF = 1e9;
+        vector<int> cost(n, INF);
+        cost[src] = 0;
+        
+        for(int i=0; i<= K; i++){
+            vector<int> tmp(cost);
+            for(const auto& p: flights){
+                tmp[p[1]] = min(tmp[p[1]], cost[p[0]]+p[2]);
             }
+            cost.swap(tmp);
         }
-        if (dist[dst] > INF /2) return -1;
-        return dist[dst];
+        return cost[dst] >= INF ? -1:cost[dst];
     }
 };
 ```
