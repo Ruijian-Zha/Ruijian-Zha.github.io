@@ -130,6 +130,16 @@ module.exports = {
               'graph/Kruskal算法',
               'graph/二分图'
             ]
+          },
+          {
+            title: '动态规划',   // 必要的
+            path: '/algorithm/', 
+            collapsable: true, // 可选的, 默认值是 true,
+            sidebarDepth: 1,    // 可选的, 默认值是 1
+            children: [
+              'dp/dp理论讲义',
+              'dp/背包dp'
+            ]
           }
         ]
       }
@@ -148,5 +158,32 @@ module.exports = {
         componentsDir: './components'
       }
     ],
+    ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
+      width: '300px', // 默认 260px
+      title: '消息提示',
+      body: [
+        {
+          type: 'title',
+          content: '欢迎加入QQ交流群 🎉🎉🎉',
+          style: 'text-aligin: center;'
+        },
+        {
+          type: 'image',
+          src: '/public/wechat.png'
+        }
+      ],
+      footer: [
+        {
+          type: 'button',
+          text: '打赏',
+          link: '/donate'
+        },
+        {
+          type: 'button',
+          text: '打赏',
+          link: '/donate'
+        }
+      ]
+    }]
   ]
 }
