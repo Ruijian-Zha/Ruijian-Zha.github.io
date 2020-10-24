@@ -60,13 +60,14 @@ module.exports = {
         icon: 'reco-suggestion'
       },
       {
-        text: '小专题',
-        link: 'https://www.yuque.com/nageaihuanxiangdeshaonian/gu0ogy',
-        icon: 'reco-document'
+        text: '支持',
+        link: '/support/',
+        icon: 'reco-beian'
       },
       {
         text: 'Github',
-        link: 'https://github.com/Ruijian-Zha'
+        link: 'https://github.com/Ruijian-Zha',
+        icon: 'reco-github'
       }
     ],
     sidebar: {
@@ -158,32 +159,14 @@ module.exports = {
         componentsDir: './components'
       }
     ],
-    ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
-      width: '300px', // 默认 260px
-      title: '消息提示',
-      body: [
-        {
-          type: 'title',
-          content: '欢迎加入QQ交流群 🎉🎉🎉',
-          style: 'text-aligin: center;'
-        },
-        {
-          type: 'image',
-          src: '/public/wechat.png'
-        }
-      ],
-      footer: [
-        {
-          type: 'button',
-          text: '打赏',
-          link: '/donate'
-        },
-        {
-          type: 'button',
-          text: '打赏',
-          link: '/donate'
-        }
-      ]
-    }]
+    [
+      'vuepress-plugin-sponsor',
+      {
+        theme: 'simple',
+        wechat: '/wechat.png',
+        alipay: '/alipay.png',
+        duration: 2000
+      }
+    ]
   ]
 }

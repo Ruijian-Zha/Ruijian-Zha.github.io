@@ -15,7 +15,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.6.0"
+    "vuepress": "^1.6.0",
+    "vuepress-plugin-sponsor": "^1.0.0"
   },
   "dependencies": {
     "leancloud-storage": "^4.6.1",
